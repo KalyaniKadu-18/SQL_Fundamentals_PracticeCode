@@ -95,3 +95,13 @@ from students
 left join courses
 on students.s_id = courses.s_id
 where courses.s_id is null;
+
+-- Update the marks of the student whose s_id is 4 to 60.
+update students
+set marks = 60
+where s_id = 4;
+
+-- Display the names of students who scored between 60 and 90 marks, including both 60 and 90.
+select name ,marks
+from students 
+where marks between 60 and 90;
