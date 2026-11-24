@@ -8,11 +8,27 @@
       "ssh": "Disabled",
       "previewLimit": 50,
       "server": "localhost",
+      "port": 33060,
+      "driver": "MySQL",
+      "name": "Practice",
+      "database": "practice",
+      "username": "root",
+      "password": "Kalyani18@"
+    },
+    {
+      "mysqlOptions": {
+        "authProtocol": "default",
+        "enableSsl": "Disabled"
+      },
+      "ssh": "Disabled",
+      "previewLimit": 50,
+      "server": "localhost",
       "port": 3306,
       "driver": "MySQL",
-      "name": "Basics",
-      "database": "practice_01",
-      "username": "root"
+      "name": "Practice_1",
+      "database": "practice",
+      "username": "root",
+      "password": "Kalyani18@"
     }
   ]
 }

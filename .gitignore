@@ -1,0 +1,72 @@
+
+# =====================================
+# DATABASE CREDENTIALS & SECRETS
+# =====================================
+
+.env
+.env.*
+!.env.example
+*.secret
+*.secrets
+secrets/
+credentials/
+private/
+
+# =====================================
+# MYSQL CONNECTION CONFIGURATION
+# =====================================
+
+.my.cnf
+my.cnf
+my.ini
+*.cnf
+database.local.*
+connection.local.*
+config.local.*
+
+# =====================================
+# VS CODE DATABASE CONNECTION SETTINGS
+# =====================================
+
+.vscode/settings.json
+
+# =====================================
+# DATABASE FILES & BACKUPS
+# =====================================
+
+*.db
+*.sqlite
+*.sqlite3
+*.dump
+*.bak
+*.backup
+*.sql.gz
+*.sql.zip
+
+# =====================================
+# PRIVATE KEYS & CERTIFICATES
+# =====================================
+
+*.pem
+*.key
+*.p12
+*.pfx
+*.jks
+
+# =====================================
+# LOGS & TEMPORARY FILES
+# =====================================
+
+*.log
+*.tmp
+*.temp
+*.swp
+*.swo
+
+# =====================================
+# SYSTEM FILES
+# =====================================
+
+.DS_Store
+Thumbs.db
+desktop.ini
